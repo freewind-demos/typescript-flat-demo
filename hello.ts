@@ -1,3 +1,3 @@
-const list = [1, 2, 3]
-const result = list.flatMap(it => [it, it]);
+const list = [[1, 2], [3, 4]]
+const result = list.flat();
 console.log(result)
